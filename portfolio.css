@@ -1,0 +1,48 @@
+*{
+
+}
+
+:root{
+    --color-text-black: #2F303A;
+    --color-acent: #2196f3;
+    --color-whitegray: #757575;
+    --color-black: #212121;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.navigation-item{
+    font-weight: 500;
+    list-style: none;
+    line-height: 135%;
+}
+
+.name{
+    font-weight: 700;
+    color: #212121;
+    line-height: 100%;
+}
+
+.text{
+    font-weight: 400;
+    color: #757575;
+    line-height: 100%;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-a{
+    color: white;
+    font-weight: 400;
+}
+
+.footer-ab{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
