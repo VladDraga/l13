@@ -1,5 +1,6 @@
 *{
-
+    margin: 0;
+    padding: 0;
 }
 
 :root{
@@ -27,11 +28,11 @@ body{
 .navigation-list{
     display: flex;
     text-decoration: none;
+    list-style: none;
 }
 
-.navigation-item{
-    list-style: none;
-    padding: 32px 0 32px 0;
+.header{
+    padding: 32px 0;
 }
 
 .navigation-item:not(:last-child){
@@ -113,7 +114,7 @@ body{
 
 .footer{
     background-color: #2F303A;
-    padding: 24px 0;
+    padding: 80px 0;
 }
 
 .footer-a{
@@ -122,22 +123,17 @@ body{
     line-height: 200%;
 }
 
-.footer-photo{
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
-
 .footer-ab{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     line-height: 80%;
+    margin: 10px 0
 }
 
 .footer-ab1{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     line-height: 80%;
-    padding-bottom: 60px;
 }
 
 .footer-tel{

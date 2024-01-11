@@ -1,5 +1,6 @@
 *{
-
+    margin: 0;
+    padding: 0;
 }
 
 :root{
@@ -23,9 +24,12 @@ body{
     text-decoration: none;
 }
 
-.navigation-item{
-    list-style: none;
+.header{
     padding: 32px 0 32px 0;
+}
+
+.navigation-list{
+    list-style: none;
 }
 
 .navigation-item:not(:last-child){
@@ -69,13 +73,14 @@ body{
     margin: 0 auto;
     font-weight: 900;
     background-color: var(--color-text-black);
+    padding: 200px 0;
 }
 
 .solution-text{
     margin: 0 auto;
+    margin-bottom: 10px;
     font-weight: 900;
     color: white;
-    padding: 200px 0 30px 0;
 }
 
 .solution-button{
@@ -84,7 +89,6 @@ body{
     color: white;
     border-radius: 5px;
     padding: 10px 10px 10px 10px;
-    margin: 0 0 200px 0;
 }
 
 .figure{
@@ -93,7 +97,7 @@ body{
 }
 
 .info{
-    padding: 94px 100px 94px 0;
+    padding: 94px 0;
 }
 
 .info-title{
@@ -124,21 +128,23 @@ body{
 
 .team{
     font-weight: 700;
+    padding: 94px 0;
 }
 
 .team-title{
-    padding: 94px 0 50px 500px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 .ul1{
     display: flex;
     list-style: none;
-    padding-bottom: 94px;
 }
 
 .figure1-name{
     font-weight: 500;
     color: #212121;
+    margin: 10px 0;
 }
 
 .figure1-text{
@@ -154,6 +160,7 @@ body{
 .figure2-name{
     font-weight: 500;
     color: #212121;
+    margin: 10px 0;
 }
 
 .figure2-text{
@@ -169,6 +176,7 @@ body{
 .figure3-name{
     font-weight: 500;
     color: #212121;
+    margin: 10px 0;
 }
 
 .figure3-text{
@@ -184,6 +192,7 @@ body{
 .figure4-name{
     font-weight: 500;
     color: #212121;
+    margin: 10px 0;
 }
 
 .figure4-text{
@@ -198,7 +207,7 @@ body{
 
 .footer{
     background-color: #2F303A;
-    padding: 24px 0;
+    padding: 80px 0;
 }
 
 .footer-a{
@@ -207,22 +216,17 @@ body{
     line-height: 200%;
 }
 
-.footer-photo{
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
-
 .footer-ab{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     line-height: 80%;
+    margin: 10px 0
 }
 
 .footer-ab1{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     line-height: 80%;
-    padding-bottom: 60px;
 }
 
 .footer-tel{
