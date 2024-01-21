@@ -22,7 +22,8 @@ body{
 .navigation-list{
     display: flex;
     text-decoration: none;
-    align-items: center
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header{
@@ -100,7 +101,6 @@ body{
 
 .figure{
     width: 270px;
-    margin-right: 30px;
 }
 
 .info{
@@ -121,16 +121,14 @@ body{
 
 .activity-title{
     font-weight: 700;
-    padding: 0 0 50px 450px;
-}
-
-.activity-photo{
-    margin-right: 10px;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .ul{
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 
 .team{
@@ -146,6 +144,7 @@ body{
 .ul1{
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 
 .figure1-name{
@@ -160,10 +159,6 @@ body{
     line-height: 10%;
 }
 
-.figure1-photo{
-    padding-right: 30px;
-}
-
 .figure2-name{
     font-weight: 500;
     color: #212121;
@@ -176,9 +171,6 @@ body{
     line-height: 10%;
 }
 
-.figure2-photo{
-    padding-right: 30px;
-}
 
 .figure3-name{
     font-weight: 500;
@@ -192,10 +184,6 @@ body{
     line-height: 10%;
 }
 
-.figure3-photo{
-    padding-right: 30px;
-}
-
 .figure4-name{
     font-weight: 500;
     color: #212121;
@@ -206,10 +194,6 @@ body{
     font-weight: 400;
     color: #757575;
     line-height: 10%;
-}
-
-.figure4-photo{
-    padding-right: 30px;
 }
 
 .footer{
@@ -248,4 +232,12 @@ body{
     text-decoration: none;
 }
 
+.div-photo1{
+    display: flex;
+    justify-content: space-between;
+}
 
+.div-photo2{
+    display: flex;
+    justify-content: space-between;
+}
